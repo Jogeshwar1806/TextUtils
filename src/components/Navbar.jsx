@@ -14,7 +14,7 @@ export default function Navbar({
         style={darkStyle}
       >
         <div className="container-fluid" style={darkStyle}>
-          <Link className="navbar-brand" to="/">
+          <Link className="navbar-brand" to="/TextUtils">
             {title}
           </Link>
           <button
@@ -39,14 +39,14 @@ export default function Navbar({
                   <Link
                     className="nav-link active"
                     aria-current="page"
-                    to="/"
+                    to="/TextUtils"
                     style={darkStyle}
                   >
                     Home
                   </Link>
                 </li>
               <li className="nav-item" style={darkStyle}>
-                <Link className="nav-link" to="/about" style={darkStyle}>
+                <Link className="nav-link" to="/TextUtils/about" style={darkStyle}>
                   About Us
                 </Link>
               </li>
