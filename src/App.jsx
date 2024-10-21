@@ -68,12 +68,12 @@ function App() {
         <Routes>
           <Route
             exact
-            path="/about"
+            path="/TextUtils/about"
             element={<About darkStyle={darkStyle} />}
           />
           <Route
             exact
-            path="/"
+            path="/TextUtils"
             element={
               <TextForm
                 darkStyle={darkStyle}
